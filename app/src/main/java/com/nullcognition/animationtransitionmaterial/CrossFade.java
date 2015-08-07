@@ -7,7 +7,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -46,20 +46,24 @@ public class CrossFade extends AppCompatActivity{
 		final TransitionDrawable transitionDrawable = new TransitionDrawable(bitmapDrawables);
 		imageView.setImageDrawable(transitionDrawable);
 
-		imageView.setOnClickListener(new View.OnClickListener(){
-			@Override
-			public void onClick(final View v){
-				Log.e("logErr", "clicked - isRed:" + isRed);
+		// on Clicklistener with the isRed boolean works well, if using the touch listener
+		// a bug is when you touch wait till green then untouch and touch, which will restart
+		// the transition from red to green, thus the green to red restart is a discrete jump
 
-				if(isRed){
-					transitionDrawable.startTransition(500);
-					isRed = false;
+		imageView.setOnTouchListener(
+				new View.OnTouchListener(){
+					@Override
+					public boolean onTouch(final View v, final MotionEvent event){
+						if(MotionEvent.ACTION_DOWN == event.getAction()){
+//							transitionDrawable.getAlpha(); may be of help to see how far along the way you have gone, ex. past 50 so set the transition faster(hack)
+							transitionDrawable.startTransition(500);
+						}
+						else if(MotionEvent.ACTION_UP == event.getAction()){
+							transitionDrawable.reverseTransition(500);
+						}
+						return true;
+					}
 				}
-				else{
-					transitionDrawable.reverseTransition(500);
-					isRed = true;
-				}
-			}
-		});
+		);
 	}
 }
