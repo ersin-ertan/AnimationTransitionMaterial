@@ -4,4 +4,10 @@
 	<string name = "hello_world">Hello world!</string>
 	<string name = "action_settings">Settings</string>
 	<string name = "title_activity_cross_fade">CrossFade</string>
+	<string name = "use_animation_resources">use animation res</string>
+	<string name = "alpha">alpha</string>
+	<string name = "translate">translate</string>
+	<string name = "rotate">rotate</string>
+	<string name = "scale">scale</string>
+	<string name = "set">set</string>
 </resources>

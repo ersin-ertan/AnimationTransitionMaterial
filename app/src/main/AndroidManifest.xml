@@ -17,7 +17,7 @@
 		</activity>
 		<activity
 			android:label = "@string/title_activity_cross_fade"
-			android:name = ".CrossFade"
+			android:name = ".MainActivity02"
 			>
 			<intent-filter>
 				<action android:name = "android.intent.action.MAIN"/>
