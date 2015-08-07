@@ -10,4 +10,6 @@
 	<string name = "rotate">rotate</string>
 	<string name = "scale">scale</string>
 	<string name = "set">set</string>
+	<string name = "title_activity_activity_transition00">ActivityTransition00</string>
+	<string name = "title_activity_activity_transition01">ActivityTransition01</string>
 </resources>
