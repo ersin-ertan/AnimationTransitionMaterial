@@ -13,7 +13,7 @@ import android.view.Gravity;
 import android.widget.GridLayout;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity{
+public class BounceImageDrawables extends AppCompatActivity{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState){

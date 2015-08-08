@@ -7,7 +7,7 @@
 - [Animating multiple properties in parallel](https://www.youtube.com/watch?v=WvCZcy3WGP4&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0&index=72)
 - [Curved motion](https://www.youtube.com/watch?v=JVGg4zPRHNE&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0&index=69)
 - [Squash and stretch](https://www.youtube.com/watch?v=wJL1oW6DlCc&index=60&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0)
-- []()
+- [Sliding fragments](https://www.youtube.com/watch?v=xbl5cxfA1n4&index=51&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0)
 - []()
 - []()
 - []()

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<item name = "slide_up_down_fraction" format = "float" type = "dimen">0.67</item>
+
+</resources>

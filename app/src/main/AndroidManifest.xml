@@ -1,56 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-	package = "com.nullcognition.animationtransitionmaterial"
-	xmlns:android = "http://schemas.android.com/apk/res/android"
-	>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nullcognition.animationtransitionmaterial" >
 
-	<application
-		android:allowBackup = "true"
-		android:icon = "@mipmap/ic_launcher"
-		android:label = "@string/app_name"
-		android:theme = "@style/AppTheme"
-		>
-		<activity
-			android:label = "@string/app_name"
-			android:name = ".MainActivity"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_cross_fade"
-			android:name = ".MainActivity02"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_activity_transition00"
-			android:name = ".activitytrans.ActivityTransition00"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_activity_transition01"
-			android:name = ".activitytrans.ActivityTransition01"
-			android:theme = "@style/AppTrans"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_main03"
-			android:name = ".MainActivity03"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_curved_motion"
-			android:name = ".curvedmotion.CurvedMotion"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_squash_strech"
-			android:name = ".SquashStrech"
-			>
-			<intent-filter>
-				<action android:name = "android.intent.action.MAIN"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BounceImageDrawables"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CrossFadePropertyAnimation"
+            android:label="@string/title_activity_cross_fade" >
+        </activity>
+        <activity
+            android:name=".activitytrans.ActivityTransition00"
+            android:label="@string/title_activity_activity_transition00" >
+        </activity>
+        <activity
+            android:name=".activitytrans.ActivityTransition01"
+            android:label="@string/title_activity_activity_transition01"
+            android:theme="@style/AppTrans" >
+        </activity>
+        <activity
+            android:name=".MultipropertyAnimations"
+            android:label="@string/title_activity_main03" >
+        </activity>
+        <activity
+            android:name=".curvedmotion.CurvedMotion"
+            android:label="@string/title_activity_curved_motion" >
+        </activity>
+        <activity
+            android:name=".SquashStrech"
+            android:label="@string/title_activity_squash_strech" >
 
-				<category android:name = "android.intent.category.LAUNCHER"/>
-			</intent-filter>
-		</activity>
-	</application>
+        </activity>
+        <activity
+            android:name=".slidingfragments.SlidingFragments"
+            android:label="@string/title_activity_sliding_fragment" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
 </manifest>

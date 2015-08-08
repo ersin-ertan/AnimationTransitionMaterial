@@ -15,4 +15,16 @@
 	<string name = "title_activity_main03">MainActivity03</string>
 	<string name = "title_activity_curved_motion">CurvedMotion</string>
 	<string name = "title_activity_squash_strech">SquashStrech</string>
+	<string name = "title_activity_sliding_fragment">SlidingFragment</string>
+
+	<string name = "photo_credits"><b>Golden Gate Sunset</b> by <b>Romain Guy</b></string>
+	<string name = "address"><b>Address:</b> Golden Gate Bridge, San Francisco, CA 94129</string>
+	<string name = "elevation"><b>Elevation:</b>  220\' (67 m)</string>
+	<string name = "height"><b>Height:</b>  746\' (227 m)</string>
+	<string name = "construction"><b>Construction started:</b>  1933</string>
+	<string name = "span"><b>Longest span:</b>  4,200\' (1,280 m)</string>
+	<string name = "length"><b>Total length:</b>  8,980\' (2,737 m)</string>
+	<string name = "summary">"The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the opening of the San Francisco Bay into the Pacific Ocean."</string>
+	<string name = "bridge">Golden Gate Bridge</string>
+
 </resources>

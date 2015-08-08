@@ -19,7 +19,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 
-public class MainActivity02 extends AppCompatActivity{
+public class CrossFadePropertyAnimation extends AppCompatActivity{
 
 	boolean isRed = true;
 
@@ -85,7 +85,7 @@ public class MainActivity02 extends AppCompatActivity{
 				if(mCheckBox.isChecked()){
 					// when using resources and clicking the animation button after the animation has started will permanently change the default start value to the value of when you clicked it,
 
-					Animator anim = AnimatorInflater.loadAnimator(MainActivity02.this, animationID);
+					Animator anim = AnimatorInflater.loadAnimator(CrossFadePropertyAnimation.this, animationID);
 					anim.setTarget(v);
 					anim.start();
 					return;

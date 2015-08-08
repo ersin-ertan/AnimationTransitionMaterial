@@ -16,7 +16,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-public class MainActivity03 extends AppCompatActivity{
+public class MultipropertyAnimations extends AppCompatActivity{
 
 	private static final float TX_START = 0;
 	private static final float TY_START = 0;
