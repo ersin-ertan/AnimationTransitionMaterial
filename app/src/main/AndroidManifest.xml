@@ -35,15 +35,19 @@
         <activity
             android:name=".SquashStrech"
             android:label="@string/title_activity_squash_strech" >
-
         </activity>
         <activity
             android:name=".slidingfragments.SlidingFragments"
             android:label="@string/title_activity_sliding_fragment" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+        <activity
+            android:name=".cardflip.CardFlip"
+            android:label="@string/title_activity_card_flip_animation" >
+            <intent-filter>
+                <action android:name = "android.intent.action.MAIN"/>
+
+                <category android:name = "android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>

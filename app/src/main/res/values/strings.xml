@@ -26,5 +26,6 @@
 	<string name = "length"><b>Total length:</b>  8,980\' (2,737 m)</string>
 	<string name = "summary">"The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the opening of the San Francisco Bay into the Pacific Ocean."</string>
 	<string name = "bridge">Golden Gate Bridge</string>
+	<string name = "title_activity_card_flip_animation">CardFlipAnimation</string>
 
 </resources>
