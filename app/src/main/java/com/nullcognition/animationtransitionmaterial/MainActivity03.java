@@ -4,11 +4,17 @@ import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.animation.ValueAnimator;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.animation.OvershootInterpolator;
 import android.widget.Button;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
 
 public class MainActivity03 extends AppCompatActivity{
 
@@ -25,7 +31,7 @@ public class MainActivity03 extends AppCompatActivity{
 	}
 	private void multipropertyAnimation(){
 		setContentView(R.layout.activity_multipropertyanimation);
-
+		initTree();
 	}
 
 	// valueanimator to animate fractional values which are then set to the object
@@ -68,6 +74,43 @@ public class MainActivity03 extends AppCompatActivity{
 		PropertyValuesHolder pvhTX = PropertyValuesHolder.ofFloat(View.TRANSLATION_X, TX_END);
 		PropertyValuesHolder pvhTY = PropertyValuesHolder.ofFloat(View.TRANSLATION_Y, TY_END);
 		ObjectAnimator.ofPropertyValuesHolder(view, pvhTX, pvhTY).setDuration(1000).start();
+	}
+
+	public void treeMe(final View view, boolean isUp){
+
+		ObjectAnimator.ofPropertyValuesHolder(view,
+				PropertyValuesHolder.ofFloat(View.TRANSLATION_X, 40),
+				PropertyValuesHolder.ofFloat(View.TRANSLATION_Y, isUp ? 40 : -40))
+		              .start();
+
+	}
+
+	public static volatile boolean isUp = true;
+
+	public void initTree(){
+
+		FrameLayout frameLayout = (FrameLayout) findViewById(R.id.frameLayout);
+		ImageView   imageView   = new ImageView(this);
+		imageView.setLayoutParams(new FrameLayout.LayoutParams(100, 100));
+
+		Bitmap bitmap00 = Bitmap.createBitmap(100, 100, Bitmap.Config.ARGB_8888);
+
+		Canvas canvas = new Canvas(bitmap00);
+		Paint  p      = new Paint();
+		p.setColor(Color.GREEN);
+		canvas.drawCircle(20, 20, 20, p);
+//		canvas.drawColor(Color.RED);
+
+		BitmapDrawable bitmapDrawable = new BitmapDrawable(getResources(), bitmap00);
+		imageView.setImageDrawable(bitmapDrawable);
+		imageView.setOnClickListener(new View.OnClickListener(){
+			@Override
+			public void onClick(final View v){
+				treeMe(v, isUp);
+				isUp = !isUp;
+			}
+		});
+		frameLayout.addView(imageView);
 	}
 
 
