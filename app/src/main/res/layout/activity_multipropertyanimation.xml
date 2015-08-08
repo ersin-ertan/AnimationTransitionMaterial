@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height = "match_parent"
+              android:layout_width = "match_parent"
+              android:orientation = "vertical"
+              tools:context = ".MultiPropertyAnimations"
+              xmlns:android = "http://schemas.android.com/apk/res/android"
+              xmlns:tools = "http://schemas.android.com/tools"
+	>
+
+	<Button
+		android:layout_height = "wrap_content"
+		android:layout_width = "wrap_content"
+		android:onClick = "runValueAnimator"
+		android:text = "value animator"
+		/>
+
+	<Button
+		android:layout_height = "wrap_content"
+		android:layout_width = "wrap_content"
+		android:onClick = "runViewPropertyAnimator"
+		android:text = "property animator"
+		/>
+
+	<Button
+		android:layout_height = "wrap_content"
+		android:layout_width = "wrap_content"
+		android:onClick = "runObjectAnimators"
+		android:text = "object animator 00"
+		/>
+
+	<Button
+		android:layout_height = "wrap_content"
+		android:layout_width = "wrap_content"
+		android:onClick = "runObjectAnimator"
+		android:text = "object animator 01"
+		/>
+
+</LinearLayout>
