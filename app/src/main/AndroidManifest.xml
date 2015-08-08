@@ -39,16 +39,27 @@
         <activity
             android:name=".slidingfragments.SlidingFragments"
             android:label="@string/title_activity_sliding_fragment" >
-
         </activity>
         <activity
             android:name=".cardflip.CardFlip"
             android:label="@string/title_activity_card_flip_animation" >
             <intent-filter>
-                <action android:name = "android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name = "android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".windowanimations.SubActivity="
+            android:label="@string/title_activity_sub_activity=" >
+        </activity>
+        <activity
+            android:name=".windowanimations.AnimatedSubActivity"
+            android:label="@string/title_activity_animated_sub" >
+        </activity>
+        <activity
+            android:name=".windowanimations.WindowAnimations"
+            android:label="@string/title_activity_window_animations" >
         </activity>
     </application>
 
