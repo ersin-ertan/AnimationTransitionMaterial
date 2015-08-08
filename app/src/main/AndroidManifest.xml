@@ -24,7 +24,6 @@
 			android:label = "@string/title_activity_activity_transition00"
 			android:name = ".activitytrans.ActivityTransition00"
 			>
-
 		</activity>
 		<activity
 			android:label = "@string/title_activity_activity_transition01"
@@ -36,9 +35,13 @@
 			android:label = "@string/title_activity_main03"
 			android:name = ".MainActivity03"
 			>
+		</activity>
+		<activity
+			android:label = "@string/title_activity_curved_motion"
+			android:name = ".curvedmotion.CurvedMotion"
+			>
 			<intent-filter>
 				<action android:name = "android.intent.action.MAIN"/>
-
 				<category android:name = "android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>

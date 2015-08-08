@@ -5,7 +5,7 @@
 - [Property animations](https://www.youtube.com/watch?v=3UbJhmkeSig&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0&index=83)
 - [Custom Activity Animations](https://www.youtube.com/watch?v=CPxkoe2MraA&index=75&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0)
 - [Animating multiple properties in parallel](https://www.youtube.com/watch?v=WvCZcy3WGP4&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0&index=72)
-- []()
+- [Curved motion](https://www.youtube.com/watch?v=JVGg4zPRHNE&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0&index=69)
 - []()
 - []()
 - []()
