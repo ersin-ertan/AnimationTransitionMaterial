@@ -69,7 +69,7 @@ public class SlidingFragments extends AppCompatActivity implements OnTextFragmen
 				public void onAnimationStart(final Animator animation){ }
 				@Override
 				public void onAnimationEnd(final Animator animation){
-					FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+					android.app.FragmentTransaction transaction = getFragmentManager().beginTransaction();
 					transaction.setCustomAnimations(R.anim.slide_fragment_in, 0, 0, R.anim.slide_fragment_out);
 					transaction.add(R.id.move_to_back_container, textFragment);
 					transaction.addToBackStack(null);
