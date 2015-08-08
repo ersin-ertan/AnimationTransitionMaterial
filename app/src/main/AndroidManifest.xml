@@ -40,8 +40,14 @@
 			android:label = "@string/title_activity_curved_motion"
 			android:name = ".curvedmotion.CurvedMotion"
 			>
+		</activity>
+		<activity
+			android:label = "@string/title_activity_squash_strech"
+			android:name = ".SquashStrech"
+			>
 			<intent-filter>
 				<action android:name = "android.intent.action.MAIN"/>
+
 				<category android:name = "android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
