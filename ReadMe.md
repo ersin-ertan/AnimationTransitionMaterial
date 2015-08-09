@@ -11,7 +11,7 @@
 - todo[Cardflip animation](https://www.youtube.com/watch?v=pMcu35-tVls&index=47&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0)
 - todo[FoldingLayout](https://www.youtube.com/watch?v=vabSSFCSkSg&index=43&list=PLWz5rJ2EKKc_XOgcRukSoKKjewFJZrKV0)
 - [Window animation](https://www.youtube.com/watch?v=Ho8vk61lVIU)
-- todo[Layout transitions](https://www.youtube.com/watch?v=55wLsaWpQ4g)
+- [Layout transitions](https://www.youtube.com/watch?v=55wLsaWpQ4g)
 - todo[Cartoon animation techniques](https://www.youtube.com/watch?v=8sG3bAPOhyw)
 - todo[4.4 Transitions](https://www.youtube.com/watch?v=S3H7nJ4QaD8)
 - []()

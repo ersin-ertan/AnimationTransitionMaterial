@@ -33,8 +33,11 @@
 	<string name = "title_activity_window_animations">WindowAnimations</string>
 	<string name = "title_activity_window_anim_sub">WindowAnimSubActivity</string>
 	<string name = "title_activity_sub">SubActivity</string>
-	<string name = "title_activity_sub_activity=">SubActivity</string>
+	<string name = "title_activity_sub_activity">SubActivity</string>
 	<string name = "title_activity_animated_sub">AnimatedSubActivity</string>
 
+	<string name = "addButton">Add Item</string>
+	<string name = "removeButton">Remove Item</string>
+	<string name = "title_activity_layout_trans">LayoutTrans</string>
 
 </resources>
