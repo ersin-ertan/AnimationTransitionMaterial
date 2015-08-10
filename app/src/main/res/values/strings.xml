@@ -41,5 +41,12 @@
 	<string name = "title_activity_layout_trans">LayoutTrans</string>
 	<string name = "title_activity_interpolator">Interpolator</string>
 	<string name = "sample_show_log">show log</string>
+	<string name = "title_activity_transition">TransitionActivity</string>
+	<string name = "scene">scene</string>
+	<string name = "scene_1">1</string>
+	<string name = "scene_2">2</string>
+	<string name = "scene_3">3</string>
+	<string name = "scene_4">4</string>
+	<string name = "additional_message">this is an additional message</string>
 
 </resources>

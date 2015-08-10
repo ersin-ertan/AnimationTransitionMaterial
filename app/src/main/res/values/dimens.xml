@@ -6,5 +6,7 @@
 	<dimen name = "slide_fragment_horizontal_margin">50dp</dimen>
 	<dimen name = "text_vertical_margin">18dp</dimen>
 	<dimen name = "text_horizontal_margin">10dp</dimen>
+	<dimen name = "square_size_normal">50dp</dimen>
+	<dimen name = "square_size_expanded">100dp</dimen>
 
 </resources>

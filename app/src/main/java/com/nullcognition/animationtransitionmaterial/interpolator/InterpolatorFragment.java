@@ -26,7 +26,7 @@ public class InterpolatorFragment extends Fragment{
 	private SeekBar      durationSeekbar;
 	private TextView     durationLabel;
 	private Interpolator interpolators[];
-	private Path         pathIn; // shiring ing from 100 to 20%
+	private Path         pathIn; // shrinking ing from 100 to 20%
 	private Path         pathOut;
 	private              boolean isOut               = false;
 	private static final int     INITIAL_DURATION_MS = 750;
@@ -34,6 +34,9 @@ public class InterpolatorFragment extends Fragment{
 	public InterpolatorFragment(){
 	}
 
+
+	// perhaps not the best thing to do, but is used for the other android.R.interpolator.fast...
+	@TargetApi(Build.VERSION_CODES.LOLLIPOP)
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 	                         Bundle savedInstanceState){
