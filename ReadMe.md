@@ -14,4 +14,7 @@
 - [Layout transitions](https://www.youtube.com/watch?v=55wLsaWpQ4g)
 - todo[Cartoon animation techniques](https://www.youtube.com/watch?v=8sG3bAPOhyw)
 - todo[4.4 Transitions](https://www.youtube.com/watch?v=S3H7nJ4QaD8)
+- [Interpolator](https://github.com/googlesamples/android-Interpolator)
+- []()
+- []()
 - []()

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name = "animation_duration">Duration: %1$d ms</string>
+	<string name = "interpolator">Interpolator:</string>
+	<string name = "animate">Animate!</string>
+
+	<string-array name = "interpolator_names">
+		<item>Linear</item>
+		<item>Fast Out Linear In</item>
+		<item>Fast Out Slow In</item>
+		<item>Linear Out Slow In</item>
+	</string-array>
+
+   <string name="intro_message">
+        <![CDATA[
+
+
+            This sample demonstrates the use of animation interpolators and path animations for
+            Material Design. It shows how an ObjectAnimator is used to animate two properties of a
+            view (scale X and Y) along a path.
+
+
+        ]]>
+    </string>
+</resources>

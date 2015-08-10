@@ -39,5 +39,7 @@
 	<string name = "addButton">Add Item</string>
 	<string name = "removeButton">Remove Item</string>
 	<string name = "title_activity_layout_trans">LayoutTrans</string>
+	<string name = "title_activity_interpolator">Interpolator</string>
+	<string name = "sample_show_log">show log</string>
 
 </resources>
