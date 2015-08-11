@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	android:layout_height = "match_parent"
+	android:layout_width = "match_parent"
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	>
+
+	<LinearLayout
+		android:layout_height = "wrap_content"
+		android:layout_width = "match_parent"
+		android:orientation = "vertical"
+		>
+
+		<com.example.android.activityscenetransitionbasic.SquareFrameLayout
+			android:layout_height = "wrap_content"
+			android:layout_width = "match_parent"
+			>
+
+			<ImageView
+				android:id = "@+id/imageview_header"
+				android:layout_height = "match_parent"
+				android:layout_width = "match_parent"
+				android:scaleType = "centerCrop"
+				/>
+
+		</com.example.android.activityscenetransitionbasic.SquareFrameLayout>
+
+		<TextView
+			android:background = "?android:attr/colorPrimary"
+			android:id = "@+id/textview_title"
+			android:layout_height = "wrap_content"
+			android:layout_width = "match_parent"
+			android:maxLines = "2"
+			android:padding = "16dp"
+			android:textAppearance = "@android:style/TextAppearance.Material.Title"
+			android:theme = "@android:style/Theme.Material"
+			/>
+
+		<TextView
+			android:layout_height = "wrap_content"
+			android:layout_width = "match_parent"
+			android:padding = "16dp"
+			android:text = "@string/bacon_ipsum"
+			android:textAppearance = "@android:style/TextAppearance.Material.Body1"
+			/>
+
+	</LinearLayout>
+
+</ScrollView>

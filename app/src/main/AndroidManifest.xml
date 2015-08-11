@@ -80,17 +80,25 @@
 			android:label = "@string/title_activity_interpolator"
 			android:name = ".interpolator.InterpolatorActivity"
 			>
-
 		</activity>
 		<activity
 			android:label = "@string/title_activity_transition"
 			android:name = ".transition.TransitionActivity"
 			>
+		</activity>
+		<activity
+			android:label = "@string/title_activity_activity_scene_transition"
+			android:name = ".activitytransloli.ActivitySceneTransition"
+			>
 			<intent-filter>
 				<action android:name = "android.intent.action.MAIN"/>
-
 				<category android:name = "android.intent.category.LAUNCHER"/>
 			</intent-filter>
+		</activity>
+		<activity
+			android:label = "@string/title_activity_detail"
+			android:name = ".activitytransloli.DetailActivity"
+			>
 		</activity>
 	</application>
 

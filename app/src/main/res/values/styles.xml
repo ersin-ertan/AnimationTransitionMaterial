@@ -32,4 +32,9 @@
 		<item name = "android:shadowRadius">2</item>
 	</style>
 
+
+	<!-- Styles  for activity transition loli-->
+	<style name = "Theme.Base" parent = "android:Theme.Light"/>
+
+
 </resources>

@@ -16,6 +16,8 @@ import com.nullcognition.animationtransitionmaterial.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+// acctivity transitions post lolipop
+
 public class ActivityTransition00 extends AppCompatActivity{
 
 	private static final String PACKAGE        = "com.example.android.activityanim";

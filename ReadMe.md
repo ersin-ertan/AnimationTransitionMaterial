@@ -16,5 +16,5 @@
 - todo[4.4 Transitions](https://www.youtube.com/watch?v=S3H7nJ4QaD8)
 - [Interpolator](https://github.com/googlesamples/android-Interpolator)
 - [Transition](https://github.com/googlesamples/android-BasicTransition/)
-- []()
-- []()
+- hasBug[Activity Scene transition Lolipop](https://github.com/googlesamples/android-ActivitySceneTransitionBasic)
+- todo[CustomTransitions](https://github.com/googlesamples/android-CustomTransition/)
