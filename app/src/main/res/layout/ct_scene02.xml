@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id = "@+id/container"
+	android:layout_height = "match_parent"
+	android:layout_width = "match_parent"
+	android:orientation = "horizontal"
+	tools:context = "com.nullcognition.animationtransitionmaterial.customtransition.CustomTransition"
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:tools = "http://schemas.android.com/tools"
+	>
+
+	<View
+		android:background = "#0f0"
+		android:id = "@+id/view_1"
+		android:layout_height = "64dp"
+		android:layout_margin = "8dp"
+		android:layout_width = "64dp"
+		/>
+
+	<View
+		android:background = "#00f"
+		android:id = "@+id/view_2"
+		android:layout_height = "64dp"
+		android:layout_margin = "8dp"
+		android:layout_width = "64dp"
+		/>
+
+	<View
+		android:background = "#f00"
+		android:id = "@+id/view_3"
+		android:layout_height = "64dp"
+		android:layout_margin = "8dp"
+		android:layout_width = "64dp"
+		/>
+
+</LinearLayout>

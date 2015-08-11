@@ -1,105 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-	package = "com.nullcognition.animationtransitionmaterial"
-	xmlns:android = "http://schemas.android.com/apk/res/android"
-	>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nullcognition.animationtransitionmaterial" >
 
-	<application
-		android:allowBackup = "true"
-		android:icon = "@mipmap/ic_launcher"
-		android:label = "@string/app_name"
-		android:theme = "@style/AppTheme"
-		>
-		<activity
-			android:label = "@string/app_name"
-			android:name = ".BounceImageDrawables"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_cross_fade"
-			android:name = ".CrossFadePropertyAnimation"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_activity_transition00"
-			android:name = ".activitytrans.ActivityTransition00"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_activity_transition01"
-			android:name = ".activitytrans.ActivityTransition01"
-			android:theme = "@style/AppTrans"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_main03"
-			android:name = ".MultipropertyAnimations"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_curved_motion"
-			android:name = ".curvedmotion.CurvedMotion"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_squash_strech"
-			android:name = ".SquashStrech"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_sliding_fragment"
-			android:name = ".slidingfragments.SlidingFragments"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_card_flip_animation"
-			android:name = ".cardflip.CardFlip"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_sub_activity"
-			android:name = ".windowanimations.SubActivity"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_animated_sub"
-			android:name = ".windowanimations.AnimatedSubActivity"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_window_animations"
-			android:name = ".windowanimations.WindowAnimations"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_layout_trans"
-			android:name = ".layouttranschanging.LayoutTrans"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_interpolator"
-			android:name = ".interpolator.InterpolatorActivity"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_transition"
-			android:name = ".transition.TransitionActivity"
-			>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_activity_scene_transition"
-			android:name = ".activitytransloli.ActivitySceneTransition"
-			>
-			<intent-filter>
-				<action android:name = "android.intent.action.MAIN"/>
-				<category android:name = "android.intent.category.LAUNCHER"/>
-			</intent-filter>
-		</activity>
-		<activity
-			android:label = "@string/title_activity_detail"
-			android:name = ".activitytransloli.DetailActivity"
-			>
-		</activity>
-	</application>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BounceImageDrawables"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CrossFadePropertyAnimation"
+            android:label="@string/title_activity_cross_fade" >
+        </activity>
+        <activity
+            android:name=".activitytrans.ActivityTransition00"
+            android:label="@string/title_activity_activity_transition00" >
+        </activity>
+        <activity
+            android:name=".activitytrans.ActivityTransition01"
+            android:label="@string/title_activity_activity_transition01"
+            android:theme="@style/AppTrans" >
+        </activity>
+        <activity
+            android:name=".MultipropertyAnimations"
+            android:label="@string/title_activity_main03" >
+        </activity>
+        <activity
+            android:name=".curvedmotion.CurvedMotion"
+            android:label="@string/title_activity_curved_motion" >
+        </activity>
+        <activity
+            android:name=".SquashStrech"
+            android:label="@string/title_activity_squash_strech" >
+        </activity>
+        <activity
+            android:name=".slidingfragments.SlidingFragments"
+            android:label="@string/title_activity_sliding_fragment" >
+        </activity>
+        <activity
+            android:name=".cardflip.CardFlip"
+            android:label="@string/title_activity_card_flip_animation" >
+        </activity>
+        <activity
+            android:name=".windowanimations.SubActivity"
+            android:label="@string/title_activity_sub_activity" >
+        </activity>
+        <activity
+            android:name=".windowanimations.AnimatedSubActivity"
+            android:label="@string/title_activity_animated_sub" >
+        </activity>
+        <activity
+            android:name=".windowanimations.WindowAnimations"
+            android:label="@string/title_activity_window_animations" >
+        </activity>
+        <activity
+            android:name=".layouttranschanging.LayoutTrans"
+            android:label="@string/title_activity_layout_trans" >
+        </activity>
+        <activity
+            android:name=".interpolator.InterpolatorActivity"
+            android:label="@string/title_activity_interpolator" >
+        </activity>
+        <activity
+            android:name=".transition.TransitionActivity"
+            android:label="@string/title_activity_transition" >
+        </activity>
+        <activity
+            android:name=".activitytransloli.ActivitySceneTransition"
+            android:label="@string/title_activity_activity_scene_transition" >
+
+        </activity>
+        <activity
+            android:name=".activitytransloli.DetailActivity"
+            android:label="@string/title_activity_detail" >
+        </activity>
+        <activity
+            android:name=".customtransition.CustomTransition"
+            android:label="@string/title_activity_custom_transition" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
 </manifest>

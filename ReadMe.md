@@ -17,4 +17,4 @@
 - [Interpolator](https://github.com/googlesamples/android-Interpolator)
 - [Transition](https://github.com/googlesamples/android-BasicTransition/)
 - hasBug[Activity Scene transition Lolipop](https://github.com/googlesamples/android-ActivitySceneTransitionBasic)
-- todo[CustomTransitions](https://github.com/googlesamples/android-CustomTransition/)
+- [CustomTransitions](https://github.com/googlesamples/android-CustomTransition/)
